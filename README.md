@@ -1,0 +1,1 @@
+This repo contains tasks related to the shell basics project
