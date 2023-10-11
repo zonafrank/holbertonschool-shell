@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iregex '.*\.gif' -print0 | xargs -0 -I {} sh -c 'echo {} | rev | cut -d "/" -f 1 | rev | cut -d "." -f 2-'
+find . -type f -iregex '.*\.gif' -print0 | xargs -0 -I {} sh -c 'echo {} | rev | cut -d "/" -f 1 | rev | cut -d "." -f 1-'
