@@ -1,0 +1,2 @@
+#!/bin/bash
+cat acrostic.txt | cut -c1 | tr -d "\n"
