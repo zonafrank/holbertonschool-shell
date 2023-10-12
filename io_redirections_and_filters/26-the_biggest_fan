@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.tsv" | xargs cat | cut -f 1 | sort | uniq -c | sort -nr | cut -c 9- | head -11
+find . -type f -name "*.tsv" | xargs cat | cut -f 1 | sort | uniq -c | sort -nr
