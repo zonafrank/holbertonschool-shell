@@ -1,2 +1,3 @@
 #!/bin/bash
-cat "$1"
+cut -f 1 "$1" | sort | uniq -c | sort -nr | cut -c 9- | head -11
+
