@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "nasa_*.tsv"
+find . -type f -name "*.tsv"
