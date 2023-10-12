@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.tsv" .exec cat {} \;
+find . -type f -name "*.tsv" | xargs cat
