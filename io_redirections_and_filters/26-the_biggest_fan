@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.tsv"
+find . -type f -name "*.tsv" | cut -f 1
